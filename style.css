@@ -6,9 +6,8 @@
 
 header {
     width: 1000px;
-    height: 100%;
     margin: auto;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 body {
@@ -33,4 +32,26 @@ body {
     text-decoration: none;
     color: white;
     margin:0 15px 0 42px;
+}
+
+.page {
+    width: 1000px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+aside {
+    width: 15%;
+    height: 400px;
+    background-color: pink;
+    float: left;
+}
+
+main {
+    width: 60%;
+    height: 500px;
+    background-color: green;
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
 }
