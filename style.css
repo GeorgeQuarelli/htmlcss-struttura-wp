@@ -30,15 +30,11 @@ main {
     margin-right: 5%;
 }
 
-footer {
-    margin: auto;
-    width: 1000px;
-    height: 100px;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+hr {
 }
 
-hr {
+footer {
+    margin-top: 50px;
 }
 
 .menu-container {
@@ -77,6 +73,26 @@ hr {
 
 }
 
+.foot {
+    margin: auto;
+    width: 1000px;
+    height: 150px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.foot p {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: white;
+    opacity: 70%;
+}
+
+.social {
+    margin-top: 40px;
+    display: inline-block;
+}
+
 #menu li {
     display: inline-block;
 }
@@ -99,6 +115,11 @@ hr {
     content: '';
     display: table;
     clear: both;
+}
+
+#face {
+    margin-left: 350px;
+    margin-right: 350px;
 }
 
 main h1 {
