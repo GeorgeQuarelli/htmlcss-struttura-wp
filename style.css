@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+body {
+    background-image: url(img/sfondo.png);
+    background-size: cover;
+}
