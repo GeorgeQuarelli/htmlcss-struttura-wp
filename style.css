@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    padding 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -13,6 +13,30 @@ header {
 body {
     background-image: url(img/sfondo.png);
     background-size: cover;
+}
+
+aside {
+    width: 15%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-bottom: 40px;
+}
+
+main {
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    float: left;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    margin: auto;
+    width: 1000px;
+    height: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .menu-container {
@@ -34,24 +58,25 @@ body {
     margin:0 15px 0 42px;
 }
 
-.page {
+#page {
     width: 1000px;
     margin: auto;
     padding-top: 30px;
 }
 
-aside {
-    width: 15%;
-    height: 400px;
-    background-color: pink;
-    float: left;
+#page::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
-main {
-    width: 60%;
-    height: 500px;
-    background-color: green;
-    float: left;
-    margin-left: 5%;
-    margin-right: 5%;
+main h1 {
+    color: white;
+    margin: 30px;
+}
+
+main p {
+    color: white;
+    margin: 30px;
+    font-size: 20px;
 }
