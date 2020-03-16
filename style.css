@@ -30,6 +30,17 @@ main {
     margin-right: 5%;
 }
 
+main h1 {
+    color: white;
+    margin: 30px;
+}
+
+main p {
+    color: white;
+    margin: 30px;
+
+}
+
 hr {
 }
 
@@ -120,15 +131,4 @@ footer {
 #face {
     margin-left: 300px;
     margin-right: 300px;
-}
-
-main h1 {
-    color: white;
-    margin: 30px;
-}
-
-main p {
-    color: white;
-    margin: 30px;
-    font-size: 20px;
 }
